@@ -5,7 +5,7 @@ export function Footer(){
     return(
         <footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
         <div className='flex items-center gap-3'>
-          <Image src={"public/album.jpg"} width={55} height={55} alt='Capa do album renaissance' />
+          <Image src={"/album.jpg"} width={55} height={55} alt='Capa do album renaissance' />
           <div className='flex flex-col '>
             <a href='#' className='font-normal hover:underline'>THIQUE</a>
             <a href='#' className='text-xs text-zinc-400 hover:underline'>Beyoncé</a>
